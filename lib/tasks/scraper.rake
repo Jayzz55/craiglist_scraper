@@ -5,7 +5,7 @@ namespace :scraper do
     require 'json'
 
     # Set API token and URL
-    auth_token = ENV['3TAPS_SECRET_KEY']
+    auth_token = "a13dcd8ca41fbef5b17cbcd9a440858c"
     polling_url = "http://polling.3taps.com/poll"
 
     # Grab data until up-to-date
@@ -80,7 +80,7 @@ namespace :scraper do
     require 'json'
 
     # Set API token and URL
-    auth_token = ENV['3TAPS_SECRET_KEY']
+    auth_token = "a13dcd8ca41fbef5b17cbcd9a440858c"
     location_url = "http://reference.3taps.com/locations"
 
     # Specify request parameters
